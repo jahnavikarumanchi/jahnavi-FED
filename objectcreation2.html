@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>    
+<title>Creating An Object</title>
+</head>
+<body>
+<script type = "text/javascript">
+let obj = {
+   l:30,
+   b:30,
+   h:30,
+   display : function(){
+             console.log(obj.l);
+             console.log(obj.b);
+             console.log(obj.h);
+            },
+   volume : function(){
+            return obj.l*obj.b*obj.h;
+            },
+        };
+        console.log(type of obj);
+        obj.display();
+        console.log('volume of box:${obj,volume()}');
+        </script>
+        </body>
+        </html>
